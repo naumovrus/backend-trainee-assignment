@@ -5,6 +5,8 @@ import (
 	"github.com/naumovrus/backend-trainee-asignment/interntal/repository"
 )
 
+//go:generate mockgen -source=service.go -destination=mocks/mock.go
+
 type User interface {
 	CreateUser(user ent.User) (int, error)
 	GetUserSegments(userId int) ([]ent.Segment, error)
