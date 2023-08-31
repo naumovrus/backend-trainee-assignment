@@ -1,6 +1,6 @@
 package entities
 
 type Segment struct {
-	Id   int    `json:"-" db:"id"`
-	Name string `json:"name" binding:"required"`
+	Id   int    `json:"id" db:"id"`
+	Name string `json:"name" db:"name" binding:"required"`
 }

@@ -1,6 +1,6 @@
 database_config: 
     username: "postgres"
-    host: "localhost"
+    host: "db"
     port_db: "5436"
     dbname: "postgres"
     sslmode: "disable"
