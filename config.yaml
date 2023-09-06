@@ -1,7 +1,7 @@
 database_config: 
     username: "postgres"
     host: "db"
-    port_db: "5436"
+    port_db: "5432"
     dbname: "postgres"
     sslmode: "disable"
 
